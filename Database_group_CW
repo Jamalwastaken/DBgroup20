@@ -30,15 +30,15 @@ CREATE TABLE BOATS (
 	fuel_type VARCHAR(30),
 	capacity INT,
 	registration_details VARCHAR(100),
-	customer_id INT REFERENCES customer.customer_id
-)
+	customer_id INT, FOREIGN KEY (customer_id) REFERENCES CUSTOMERS(customer_id)
+);
 CREATE TABLE STAFF(
 	staff_id SERIAL PRIMARY KEY,
 	staff_fname VARCHAR(30),
 	staff_lname VARCHAR(30),
 	home_email VARCHAR(50),
 	work_email VARCHAR(50),
-	boatyard_id INT REFERENCES boatyards.boatyard_no
+	boatyard_no INT, FOREIGN KEY(boatyard_no) REFERENCES boatyards(boatyard_no)
 )
 CREATE TABLE SERVICES (
 	service_id SERIAL PRIMARY KEY,
