@@ -15,8 +15,8 @@ CREATE TABLE CUSTOMER(
 
 CREATE TABLE ROLE(
 	role_id SERIAL PRIMARY KEY,
-	role_name VARCHAR(40)
-	permission CHAR(30);
+	role_name VARCHAR(40),
+	permission CHAR(30)
 );
 
 CREATE TABLE BOATYARD(
@@ -56,7 +56,7 @@ CREATE TABLE STAFF_ROLE(
 );
 
 CREATE TABLE ROLE_SERVICE (
-	roles_id INT REFERENCES roles(roles_id),
-	service_id INT REFERENCES SERVICES(service_id),
+	role_id INT REFERENCES role(role_id),
+	service_id INT REFERENCES SERVICE(service_id),
     PRIMARY KEY(role_id, service_id) 
 );

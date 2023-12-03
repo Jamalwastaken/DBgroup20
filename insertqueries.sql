@@ -35,7 +35,7 @@ VALUES
   ('Port D', 'Medium', 'Docking, Repair Services'),
   ('Bay E', 'Large', 'Docking, Fuel Station, Restaurant'),
   ('Harbor F', 'Small', 'Boat Ramp'),
-  ('Marina G', 'Medium', 'Docking, Repair Services'),
+  ('Marina G', 'Medium', 'Docking, Repair Services');
  
 
 -- Insert data into BOATS table
@@ -47,7 +47,7 @@ VALUES
   ('Cruise Ship A', '2022-01-30'::date, 'Electric', 150, 'Reg-ABC', 4),
   ('Yacht B', '2023-04-05'::date, 'Diesel', 12, 'Reg-DEF', 5),
   ('Canoe C', '2022-11-12'::date, 'Manual', 2, 'Reg-GHI', 6),
-  ('Kayak D', '2023-02-28'::date, 'Manual', 1, 'Reg-JKL', 7);
+  ('Kayak D', '2023-02-28'::date, 'Manual', 1, 'Reg-JKL', 7)
   ('Sea Explorer', '2022-05-10', 'Diesel', 50, 'Reg#12345', 8),
   ('Ocean Voyager', '2021-11-15', 'Gasoline', 40, 'Reg#67890', 9),
   ('River Cruiser', '2023-01-20', 'Electric', 30, 'Reg#54321', 10);
