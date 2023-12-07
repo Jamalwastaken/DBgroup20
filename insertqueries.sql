@@ -67,18 +67,18 @@ VALUES
   ('Jessica', 'Wong', 'jessica@email.com', 'jessica.wong@boatyard.com', 3);
 
 -- Insert data into SERVICES table
-INSERT INTO SERVICE (service_type, date, details)
+INSERT INTO SERVICE (service_type, dates, details)
 VALUES
-  ('Maintenance', '2023-05-01'::date, 'Regular checkup and cleaning'),
-  ('Repair', '2023-04-15'::date, 'Engine overhaul'),
-  ('Fueling', '2023-03-20'::date, 'Gasoline refill'),
-  ('Navigation Check', '2023-10-04'::date, 'Verify navigation systems'),
-  ('Catering', '2023-05-25'::date, 'Provide meals for crew and passengers'),
-  ('Security Check', '2023-06-15'::date, 'Inspect security measures'),
-  ('Cleaning', '2023-07-30'::date, 'Thorough cleaning of the vessel'),
-  ('Piloting', '2023-08-12'::date, 'Assist in navigating the vessel'),
-  ('Mechanical Inspection', '2023-09-20'::date, 'Check and repair mechanical components'),
-  ('Emergency Response', '2023-05-10'::date, 'Preparedness for emergency situations');
+  ('Maintenance', '2023-05-01', 'Regular checkup and cleaning'),
+  ('Repair', '2023-04-15', 'Engine overhaul'),
+  ('Fueling', '2023-03-20', 'Gasoline refill'),
+  ('Navigation Check', '2023-10-04', 'Verify navigation systems'),
+  ('Catering', '2023-05-25', 'Provide meals for crew and passengers'),
+  ('Security Check', '2023-06-15', 'Inspect security measures'),
+  ('Cleaning', '2023-07-30', 'Thorough cleaning of the vessel'),
+  ('Piloting', '2023-08-12', 'Assist in navigating the vessel'),
+  ('Mechanical Inspection', '2023-09-20', 'Check and repair mechanical components'),
+  ('Emergency Response', '2023-05-10', 'Preparedness for emergency situations');
 
 
 
