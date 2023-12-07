@@ -46,7 +46,7 @@ CREATE TABLE STAFF(
 CREATE TABLE SERVICE(
 	service_id SERIAL PRIMARY KEY,
 	service_type VARCHAR(50),
-	date DATE,
+	dates DATE,
 	details text
 );
 CREATE TABLE STAFF_ROLE(
