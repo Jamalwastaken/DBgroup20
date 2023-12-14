@@ -11,6 +11,8 @@ VALUES
   ('Sophia', 'Evans', '07567890123', '07776543210', 'sophia.evans@email.com', '9 Carnaby Street', 'W1F 9PE'),
   ('Henry', 'Harrison', '07654321098', '07900998877', 'henry.harrison@email.com', '18 Coventry Street', 'W1D 7DS'),
   ('Amelia', 'Cook', '07876543210', '07771234567', 'amelia.cook@email.com', '41 Leicester Square', 'WC2H 7NA');
+  
+
 
 -- Insert data into ROLES table
 INSERT INTO ROLE (role_name)
